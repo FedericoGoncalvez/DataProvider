@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="428.674" tests="16" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="user.country.format" value="UY"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\usuarios\Desktop\DataProvider"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\usuarios\Desktop\DataProvider"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\usuarios\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\plugins\maven\lib\maven3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Python310;C:\Users\usuarios\AppData\Roaming\Python;C:\Users\usuarios\AppData\Roaming\Python\Python310;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\usuarios\Downloads\allure-2.22.0\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\plugins\maven\lib\maven3\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\usuarios\AppData\Roaming\Python\Python310;C:\Program Files\Python310;C:\Users\usuarios\AppData\Roaming\Python;C:\Users\usuarios\AppData\Roaming\Python\Python310;C:\Program Files\Python310;C:\Users\usuarios\AppData\Roaming\Python;C:\Users\usuarios\AppData\Roaming\Python\Python310;C:\Program Files\Python310;C:\Users\usuarios\AppData\Roaming\Python;C:\Users\usuarios\AppData\Roaming\Python\Python310;C:\Users\usuarios\AppData\Roaming\npm;C:\Users\usuarios\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\sfdx\bin;C:\Users\usuarios\Desktop\UpCamp\chromedriver;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\plugins\maven\lib\maven3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="library.jansi.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\plugins\maven\lib\maven3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\usuarios"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="usuarios"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\plugins\maven\lib\maven3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="es"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\plugins\maven\lib\maven3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test" classname="scripts.AddToCart" time="18.279"/>
+  <testcase name="test" classname="scripts.AddToCart" time="13.68"/>
+  <testcase name="test" classname="scripts.AddToCart" time="13.219">
+    <failure message="expected:&lt;472.33€&gt; but was:&lt;472.33â‚¬&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<472.33€> but was:<472.33â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+]]></failure>
+    <system-out><![CDATA[Exception while taking screenshot Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'UTEC-5738', ip: '192.168.33.62', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 46966
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 4:23:48 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="scripts.AddToCart" time="15.935">
+    <failure message="expected:&lt;96.66€&gt; but was:&lt;96.66â‚¬&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<96.66€> but was:<96.66â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+]]></failure>
+    <system-out><![CDATA[Successfully captured a screenshot
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 3454
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 4:24:03 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="scripts.AddToCart" time="30.215"/>
+  <testcase name="test" classname="scripts.AddToCart" time="30.113"/>
+  <testcase name="test" classname="scripts.AddToCart" time="18.005">
+    <failure message="expected:&lt;472.33€&gt; but was:&lt;472.33â‚¬&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<472.33€> but was:<472.33â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+]]></failure>
+    <system-out><![CDATA[Exception while taking screenshot Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'UTEC-5738', ip: '192.168.33.62', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 30669
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 4:25:20 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="scripts.AddToCart" time="19.557">
+    <failure message="expected:&lt;96.66€&gt; but was:&lt;96.66â‚¬&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<96.66€> but was:<96.66â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+]]></failure>
+    <system-out><![CDATA[Successfully captured a screenshot
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 28920
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 4:25:40 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="scripts.AddToCart" time="36.117"/>
+  <testcase name="test" classname="scripts.AddToCart" time="42.44"/>
+  <testcase name="test" classname="scripts.AddToCart" time="25.724">
+    <failure message="expected:&lt;472.33€&gt; but was:&lt;472.33â‚¬&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<472.33€> but was:<472.33â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+]]></failure>
+    <system-out><![CDATA[Exception while taking screenshot Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'UTEC-5738', ip: '192.168.33.62', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 22046
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 4:27:18 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="scripts.AddToCart" time="29.784">
+    <failure message="expected:&lt;96.66€&gt; but was:&lt;96.66â‚¬&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<96.66€> but was:<96.66â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+]]></failure>
+    <system-out><![CDATA[Successfully captured a screenshot
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 32982
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 4:27:46 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="scripts.AddToCart" time="38.215"/>
+  <testcase name="test" classname="scripts.AddToCart" time="35.319"/>
+  <testcase name="test" classname="scripts.AddToCart" time="18.551">
+    <failure message="expected:&lt;472.33€&gt; but was:&lt;472.33â‚¬&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<472.33€> but was:<472.33â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+]]></failure>
+    <system-out><![CDATA[Exception while taking screenshot Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'UTEC-5738', ip: '192.168.33.62', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 7724
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 4:29:27 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="scripts.AddToCart" time="30.887">
+    <failure message="expected:&lt;96.66€&gt; but was:&lt;96.66â‚¬&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<96.66€> but was:<96.66â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+]]></failure>
+    <system-out><![CDATA[Successfully captured a screenshot
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 41850
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 4:29:49 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

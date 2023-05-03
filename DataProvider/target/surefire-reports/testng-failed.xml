@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parametrized test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Parametrized Test(failed)" verbose="0">
+    <parameter name="productParam" value="MacBook"/>
+    <parameter name="priceParam" value="$602.00"/>
+    <parameter name="currencyParam" value="USD"/>
+    <classes>
+      <class name="scripts.AddToCart">
+        <methods>
+          <include name="test" invocation-numbers="2 3"/>
+          <include name="takeScreenshot"/>
+        </methods>
+      </class> <!-- scripts.AddToCart -->
+    </classes>
+  </test> <!-- Parametrized Test(failed) -->
+  <test thread-count="5" name="Parametrized Test 2(failed)" verbose="0">
+    <parameter name="productParam" value="iPhone"/>
+    <parameter name="priceParam" value="$123.20"/>
+    <parameter name="currencyParam" value="USD"/>
+    <classes>
+      <class name="scripts.AddToCart">
+        <methods>
+          <include name="test" invocation-numbers="2 3"/>
+          <include name="takeScreenshot"/>
+        </methods>
+      </class> <!-- scripts.AddToCart -->
+    </classes>
+  </test> <!-- Parametrized Test 2(failed) -->
+  <test thread-count="5" name="Parametrized Test 3(failed)" verbose="0">
+    <parameter name="productParam" value="MacBook"/>
+    <parameter name="priceParam" value="472.33€"/>
+    <parameter name="currencyParam" value="EUR"/>
+    <classes>
+      <class name="scripts.AddToCart">
+        <methods>
+          <include name="test" invocation-numbers="2 3"/>
+          <include name="takeScreenshot"/>
+        </methods>
+      </class> <!-- scripts.AddToCart -->
+    </classes>
+  </test> <!-- Parametrized Test 3(failed) -->
+  <test thread-count="5" name="Parametrized Test 4(failed)" verbose="0">
+    <parameter name="productParam" value="iPhone"/>
+    <parameter name="priceParam" value="96.66€"/>
+    <parameter name="currencyParam" value="EUR"/>
+    <classes>
+      <class name="scripts.AddToCart">
+        <methods>
+          <include name="test" invocation-numbers="2 3"/>
+          <include name="takeScreenshot"/>
+        </methods>
+      </class> <!-- scripts.AddToCart -->
+    </classes>
+  </test> <!-- Parametrized Test 4(failed) -->
+</suite> <!-- Failed suite [Parametrized test Suite] -->

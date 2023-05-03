@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 428.674 sec <<< FAILURE! - in TestSuite
+test(scripts.AddToCart)  Time elapsed: 13.219 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<472.33€> but was:<472.33â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+
+test(scripts.AddToCart)  Time elapsed: 15.935 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<96.66€> but was:<96.66â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+
+test(scripts.AddToCart)  Time elapsed: 18.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<472.33€> but was:<472.33â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+
+test(scripts.AddToCart)  Time elapsed: 19.557 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<96.66€> but was:<96.66â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+
+test(scripts.AddToCart)  Time elapsed: 25.724 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<472.33€> but was:<472.33â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+
+test(scripts.AddToCart)  Time elapsed: 29.784 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<96.66€> but was:<96.66â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+
+test(scripts.AddToCart)  Time elapsed: 18.551 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<472.33€> but was:<472.33â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+
+test(scripts.AddToCart)  Time elapsed: 30.887 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<96.66€> but was:<96.66â‚¬>
+	at scripts.AddToCart.test(AddToCart.java:41)
+

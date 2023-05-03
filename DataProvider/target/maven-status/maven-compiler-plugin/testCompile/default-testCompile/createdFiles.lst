@@ -1,0 +1,4 @@
+pages\ProductPage.class
+dataProviders\ProductsData.class
+scripts\AddToCart.class
+pages\HomePage.class
